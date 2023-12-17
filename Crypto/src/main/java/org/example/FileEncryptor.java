@@ -1,10 +1,15 @@
+package org.example;
+
 import javax.crypto.Cipher;
 import javax.crypto.CipherInputStream;
+import javax.crypto.KeyGenerator;
+import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.security.Key;
+import java.security.NoSuchAlgorithmException;
 
 public class FileEncryptor {
 
@@ -20,7 +25,7 @@ public class FileEncryptor {
         cipher.init(Cipher.ENCRYPT_MODE, secretKey);
 
         File originalFile = new File(inputFile);
-        String encryptedFilePath = originalFile.getParent() + File.separator + "Encrypted_" + originalFile.getName();
+        String encryptedFilePath = originalFile.getParent() + File.separator + "Зашифрованный_" + originalFile.getName();
 
         try (FileInputStream inputStream = new FileInputStream(inputFile);
              FileOutputStream outputStream = new FileOutputStream(encryptedFilePath)) {
@@ -45,7 +50,7 @@ public class FileEncryptor {
         cipher.init(Cipher.DECRYPT_MODE, secretKey);
 
         File originalFile = new File(inputFile);
-        String decryptedFilePath = originalFile.getParent() + File.separator + "Decrypted_" + originalFile.getName();
+        String decryptedFilePath = originalFile.getParent() + File.separator + "Расшифрованный_" + originalFile.getName();
 
         try (FileInputStream inputStream = new FileInputStream(inputFile);
              FileOutputStream outputStream = new FileOutputStream(decryptedFilePath)) {
@@ -62,5 +67,25 @@ public class FileEncryptor {
             outputStream.write(decryptedBytes);
 
         }
+    }
+
+    public static String generateAESKey() {
+        try {
+            KeyGenerator keyGenerator = KeyGenerator.getInstance("AES");
+            keyGenerator.init(128);
+            SecretKey secretKey = keyGenerator.generateKey();
+            return bytesToHex(secretKey.getEncoded());
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    private static String bytesToHex(byte[] bytes) {
+        StringBuilder result = new StringBuilder();
+        for (byte b : bytes) {
+            result.append(String.format("%02x", b));
+        }
+        return result.toString();
     }
 }
