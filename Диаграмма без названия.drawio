@@ -1,9 +1,96 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T09:53:21.035Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.771 YaBrowser/23.11.2.771 Yowser/2.5 Safari/537.36" version="22.1.11" etag="ZOrYT3oaW6YbUfwCiM12" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T10:27:30.619Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.771 YaBrowser/23.11.2.771 Yowser/2.5 Safari/537.36" etag="oPs3XnLOHtCkVzZeY3I8" version="22.1.11" type="github">
   <diagram name="Страница — 1" id="vyfmJZVnl9p8rinQx3BE">
-    <mxGraphModel>
+    <mxGraphModel dx="1002" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;FileEncyptor&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;spacingRight=3;" vertex="1" parent="1">
+          <mxGeometry width="170" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;- &lt;span style=&quot;line-height: 106%; font-family: Calibri, sans-serif;&quot; lang=&quot;EN-US&quot;&gt;key&lt;/span&gt;&lt;span style=&quot;font-family: Calibri, sans-serif;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;line-height: 106%; font-family: Calibri, sans-serif;&quot; lang=&quot;EN-US&quot;&gt;String&lt;/span&gt;&lt;span style=&quot;font-family: Calibri, sans-serif;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3ANtsZwoB6s7GVHmMhVy-1">
+          <mxGeometry y="30" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;+ &lt;span style=&quot;line-height: 106%; font-family: Calibri, sans-serif;&quot; lang=&quot;EN-US&quot;&gt;setKey&lt;/span&gt;&lt;span style=&quot;font-family: Calibri, sans-serif;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;line-height: 106%; font-family: Calibri, sans-serif;&quot; lang=&quot;EN-US&quot;&gt;String&lt;/span&gt;&lt;span style=&quot;font-family: Calibri, sans-serif;&quot;&gt;)&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3ANtsZwoB6s7GVHmMhVy-1">
+          <mxGeometry y="60" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-25" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;+ &lt;span style=&quot;line-height: 106%; font-family: Calibri, sans-serif;&quot; lang=&quot;EN-US&quot;&gt;encryptFile&lt;/span&gt;&lt;span style=&quot;font-family: Calibri, sans-serif;&quot;&gt;()&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3ANtsZwoB6s7GVHmMhVy-1">
+          <mxGeometry y="90" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-26" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;+ &lt;span style=&quot;line-height: 106%; font-family: Calibri, sans-serif;&quot; lang=&quot;EN-US&quot;&gt;decryptFile&lt;/span&gt;&lt;span style=&quot;font-family: Calibri, sans-serif;&quot;&gt;()&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3ANtsZwoB6s7GVHmMhVy-1">
+          <mxGeometry y="120" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-27" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;+ &lt;span style=&quot;line-height: 106%; font-family: Calibri, sans-serif;&quot; lang=&quot;EN-US&quot;&gt;generateAESKey()&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3ANtsZwoB6s7GVHmMhVy-1">
+          <mxGeometry y="150" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;- &lt;span style=&quot;line-height: 106%; font-family: Calibri, sans-serif;&quot; lang=&quot;EN-US&quot;&gt;bytesToHex&lt;/span&gt;&lt;span style=&quot;font-family: Calibri, sans-serif;&quot;&gt;()&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3ANtsZwoB6s7GVHmMhVy-1">
+          <mxGeometry y="180" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;KeyGeneratorUtils   &lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="360" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-10" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;+ generateKey()&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3ANtsZwoB6s7GVHmMhVy-9">
+          <mxGeometry y="30" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-11" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;+ generateAESKey()&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3ANtsZwoB6s7GVHmMhVy-9">
+          <mxGeometry y="60" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-17" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;CryptoUtils&amp;nbsp;&amp;nbsp;&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="380" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-18" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;+&amp;nbsp;encrypt()&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3ANtsZwoB6s7GVHmMhVy-17">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-19" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;+ decrypt()&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3ANtsZwoB6s7GVHmMhVy-17">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-21" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;CryptoGUI&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" width="210" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-22" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;-encryptionRadioButton&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3ANtsZwoB6s7GVHmMhVy-21">
+          <mxGeometry y="30" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-23" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;-&lt;font style=&quot;font-size: 16px;&quot;&gt;decryptionRadioButton&lt;/font&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3ANtsZwoB6s7GVHmMhVy-21">
+          <mxGeometry y="60" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-24" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;-fileTextField&lt;span style=&quot;line-height: 106%; font-family: Calibri, sans-serif;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3ANtsZwoB6s7GVHmMhVy-21">
+          <mxGeometry y="90" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-32" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;-keyTextField&lt;span style=&quot;line-height: 106%; font-family: Calibri, sans-serif;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3ANtsZwoB6s7GVHmMhVy-21">
+          <mxGeometry y="120" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-33" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;-generatedKeyTextField&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3ANtsZwoB6s7GVHmMhVy-21">
+          <mxGeometry y="150" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-34" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;-browseButton&lt;span style=&quot;line-height: 106%; font-family: Calibri, sans-serif;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3ANtsZwoB6s7GVHmMhVy-21">
+          <mxGeometry y="180" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-35" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;-submitButton&lt;span style=&quot;line-height: 106%; font-family: Calibri, sans-serif;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3ANtsZwoB6s7GVHmMhVy-21">
+          <mxGeometry y="210" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-36" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;-generateKeyButton&lt;span style=&quot;line-height: 106%; font-family: Calibri, sans-serif;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3ANtsZwoB6s7GVHmMhVy-21">
+          <mxGeometry y="240" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-37" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;-buttonGroup&lt;span style=&quot;line-height: 106%; font-family: Calibri, sans-serif;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3ANtsZwoB6s7GVHmMhVy-21">
+          <mxGeometry y="270" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-39" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;AbstractCrypto&amp;nbsp;&amp;nbsp;&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="220" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-40" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;+&amp;nbsp;encrypt()&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3ANtsZwoB6s7GVHmMhVy-39">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-41" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;+ decrypt()&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3ANtsZwoB6s7GVHmMhVy-39">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-42" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;CipherUtils&lt;span style=&quot;line-height: 106%; font-family: Calibri, sans-serif;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="430" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-43" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;+ &lt;span style=&quot;line-height: 106%; font-family: Calibri, sans-serif;&quot; lang=&quot;EN-US&quot;&gt;encrypt&lt;/span&gt;&lt;span style=&quot;font-family: Calibri, sans-serif;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;line-height: 106%; font-family: Calibri, sans-serif;&quot; lang=&quot;EN-US&quot;&gt;Cipher&lt;/span&gt;&lt;span style=&quot;font-family: Calibri, sans-serif;&quot;&gt;, ...)&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3ANtsZwoB6s7GVHmMhVy-42">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ANtsZwoB6s7GVHmMhVy-44" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;+ decrypt()&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3ANtsZwoB6s7GVHmMhVy-42">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
